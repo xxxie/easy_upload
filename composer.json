@@ -1,0 +1,19 @@
+{
+    "name": "xxxie\/easy_upload",
+    "description": "a upload sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "xxxie",
+            "email": "280498307@qq.com"
+        }
+    ],
+    "require": {
+        "qiniu/php-sdk": "^7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Xxxie\\EasyUpload\\": "src"
+        }
+    }
+}
