@@ -42,7 +42,11 @@ class EasyUpload
             throw  new HttpException('上传文件失败');
         }
         $url = $this->getUrlPath($folderPath, $fileName);
-        return $url;
+        $info = [
+            'status' => 1,
+            'message' => 'success',
+            'url' => $url;];
+        return $info;
     }
 
     /**
